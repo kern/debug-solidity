@@ -1,0 +1,14 @@
+{
+  "package_name": "debuggable-solidity",
+  "version": "1.0.0",
+  "description": "Solidity library and related contracts for debugging contracts",
+  "authors": [
+    "Alexander Kern <alex@kern.io>"
+  ],
+  "keywords": [
+    "solidity",
+    "ethereum",
+    "debugging"
+  ],
+  "license": "Apache-2.0"
+}
