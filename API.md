@@ -20,6 +20,7 @@ Alexander Kern <alex@kern.io>
 
 Debuggable.debugRevert() `pure` `29b9505f`
 
+> Reverts when called
 
 
 
@@ -28,18 +29,20 @@ Debuggable.debugRevert() `pure` `29b9505f`
 
 Debuggable.debug(value) `nonpayable` `2f50fbfa`
 
+> Emits a DebugString event with a string value
 
 Inputs
 
 | **type** | **name** | **description** |
 |-|-|-|
-| *string* | value | undefined |
+| *string* | value | The string value |
 
 
 ## *function* debugNoopConstant
 
 Debuggable.debugNoopConstant() `pure` `58e8e8db`
 
+> Does nothing (constant fn)
 
 
 
@@ -48,54 +51,59 @@ Debuggable.debugNoopConstant() `pure` `58e8e8db`
 
 Debuggable.debug(value) `nonpayable` `6714a34e`
 
+> Emits a DebugAddress event with an address value
 
 Inputs
 
 | **type** | **name** | **description** |
 |-|-|-|
-| *address* | value | undefined |
+| *address* | value | The address value |
 
 
 ## *function* debugRevert
 
 Debuggable.debugRevert(message) `pure` `6a9b418f`
 
+> Reverts with a message when called
 
 Inputs
 
 | **type** | **name** | **description** |
 |-|-|-|
-| *string* | message | undefined |
+| *string* | message | The message |
 
 
 ## *function* debug
 
 Debuggable.debug(value) `nonpayable` `815dd951`
 
+> Emits a DebugUint256 event with a uint256 value
 
 Inputs
 
 | **type** | **name** | **description** |
 |-|-|-|
-| *uint256* | value | undefined |
+| *uint256* | value | The uint256 value |
 
 
 ## *function* debug
 
 Debuggable.debug(value) `nonpayable` `9bb4050e`
 
+> Emits a DebugBytes32 event with a bytes32 value
 
 Inputs
 
 | **type** | **name** | **description** |
 |-|-|-|
-| *bytes32* | value | undefined |
+| *bytes32* | value | The bytes32 value |
 
 
 ## *function* debugNoop
 
 Debuggable.debugNoop() `nonpayable` `eda892c1`
 
+> Does nothing
 
 
 

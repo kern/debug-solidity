@@ -1,8 +1,8 @@
 {
-  "name": "debuggable-solidity",
+  "name": "debug-solidity",
   "version": "1.0.0",
   "description": "Solidity library and related contracts for debugging contracts",
-  "repository": "git@github.com:kern/debuggable-solidity.git",
+  "repository": "git@github.com:kern/debug-solidity.git",
   "author": "alex@kern.io",
   "license": "Apache-2.0",
   "scripts": {
@@ -20,11 +20,17 @@
   "devDependencies": {
     "eth-gas-reporter": "^0.1.2",
     "ganache-cli": "^6.1.0",
+    "husky": "^1.1.2",
     "nodemon": "^1.18.4",
     "solidity-docgen": "^0.1.0",
     "solium": "^1.1.7",
     "solmd": "^0.3.0",
     "truffle": "^4.1.11",
     "truffle-privatekey-provider": "^0.0.6"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn gen-docs && git add API.md README.template.md README.md"
+    }
   }
 }

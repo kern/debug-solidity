@@ -1,5 +1,5 @@
 {
-  "package_name": "debuggable-solidity",
+  "package_name": "debug-solidity",
   "version": "1.0.0",
   "description": "Solidity library and related contracts for debugging contracts",
   "authors": [
