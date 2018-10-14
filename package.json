@@ -15,7 +15,7 @@
     "migrate-mainnet": "truffle migrate --compile-all --network mainnet",
     "lint": "solium -d contracts/",
     "fix": "solium --fix -d contracts/",
-    "gen-docs": "solmd contracts/Debuggable.sol --dest API.md && cat README.template.md API.md > README.md"
+    "gen-docs": "./bin/gen-docs.sh"
   },
   "devDependencies": {
     "eth-gas-reporter": "^0.1.2",
@@ -30,7 +30,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn gen-docs && git add API.md README.template.md README.md"
+      "pre-commit": "./bin/gen-docs.sh && git add README.template.md README.md"
     }
   }
 }

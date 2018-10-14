@@ -3,7 +3,7 @@
 ![Travis](https://img.shields.io/travis/kern/debug-solidity.svg) 
 ![npm](https://img.shields.io/npm/v/debug-solidity.svg)
 
-Solidity library and related contracts for debugging contracts
+Solidity library and related contracts for debugging
 
 [API Reference](#api-reference)
 
@@ -61,10 +61,6 @@ PRs welcome. To install dependencies and start the local development server:
 
     $ yarn test
     $ yarn watch
-
-### Regenerate documentation
-
-    $ npm run gen-docs
 
 ## License
 
