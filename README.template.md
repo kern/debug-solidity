@@ -1,4 +1,4 @@
-# debug-solidity
+<img src="https://raw.githubusercontent.com/kern/debug-solidity/master/resources/pdd.png" alt="Printf-driven Development" width="30%" align="right" /> <h1>debug-solidity</h1>
 
 ![Travis](https://img.shields.io/travis/kern/debug-solidity.svg) 
 ![npm](https://img.shields.io/npm/v/debug-solidity.svg)
