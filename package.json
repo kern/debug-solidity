@@ -1,6 +1,6 @@
 {
   "name": "debug-solidity",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Solidity library and related contracts for debugging contracts",
   "repository": "git@github.com:kern/debug-solidity.git",
   "author": "alex@kern.io",

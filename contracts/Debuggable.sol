@@ -22,26 +22,30 @@ library Debuggable {
 
     /// @dev Emits a DebugString event with a string value
     /// @param value The string value
-    function debug(string value) public {
+    function debug(string value) public returns (string) {
         emit DebugString(value);
+        return value;
     }
 
     /// @dev Emits a DebugBytes32 event with a bytes32 value
     /// @param value The bytes32 value
-    function debug(bytes32 value) public {
+    function debug(bytes32 value) public returns (bytes32) {
         emit DebugBytes32(value);
+        return value;
     }
 
     /// @dev Emits a DebugUint256 event with a uint256 value
     /// @param value The uint256 value
-    function debug(uint256 value) public {
+    function debug(uint256 value) public returns (uint256) {
         emit DebugUint256(value);
+        return value;
     }
 
     /// @dev Emits a DebugAddress event with an address value
     /// @param value The address value
-    function debug(address value) public {
+    function debug(address value) public returns (address) {
         emit DebugAddress(value);
+        return value;
     }
 
     /// @dev Reverts when called
